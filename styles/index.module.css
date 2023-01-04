@@ -1,0 +1,88 @@
+@font-face {
+    font-family: "ColfaxAI";
+    src: url(https://cdn.openai.com/API/fonts/ColfaxAIRegular.woff2) format("woff2"),
+      url(https://cdn.openai.com/API/fonts/ColfaxAIRegular.woff) format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "ColfaxAI";
+    src: url(https://cdn.openai.com/API/fonts/ColfaxAIBold.woff2) format("woff2"),
+      url(https://cdn.openai.com/API/fonts/ColfaxAIBold.woff) format("woff");
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  .main {
+    margin: 5% 15%;
+  }
+  
+  
+  .main h3 {
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: bold;
+    color: #202123;
+  }
+  
+  .titulo {
+    text-align: center;
+    font-family: "ColfaxAI", Helvetica, sans-serif;
+  }
+  
+  .main select {
+    font-size: 20px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "ColfaxAI", Helvetica, sans-serif;
+  }
+  .selects{
+    width: 170px;
+    height: 25px;
+  }
+  
+  .respuestas {
+    margin: 0% 15%;
+    margin-top: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  
+  .col1 {
+    display: flex;
+  
+  }
+  
+  
+  .resultado {
+    margin: 5% 10%;
+    font-family: "ColfaxAI", Helvetica, sans-serif;
+  }
+  
+  
+  .wait {
+    margin: 5% 0%;
+    text-align: center;
+    font-family: "ColfaxAI", Helvetica, sans-serif;
+  }
+  
+  .contenedorflex {
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-around;
+    
+  }
+  .p{
+    margin-left: 25%;
+    margin-top: 5%;
+    font-family: "ColfaxAI", Helvetica, sans-serif
+  }
+  
+  
+  .right {
+    width: 130px;
+    height: 30px;
+  }
+  
